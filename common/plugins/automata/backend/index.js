@@ -77,6 +77,7 @@ module.exports = function( server, databaseObj, helper, packageObj) {
 
 
 		modelObj.getAbsoluteSchema = function(callback) {
+			console.log("I am getting called.");
 			//Now form the schema and send it to the client..
 			var relations = modelObj.definition.settings.relations;
 			var filters   = modelObj.definition.settings.filters;
@@ -109,7 +110,6 @@ module.exports = function( server, databaseObj, helper, packageObj) {
 					description: "Send the schema of the model requested."
 				}
 		);
-
 
 		//Now registering the method `getAbsoluteSchema` required for robust automata plugin..
 		modelObj.remoteMethod(
