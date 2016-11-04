@@ -1,0 +1,16 @@
+{
+  "css": {
+    "/static/bower_components/selectize/dist/css/selectize.default.css": "selectize",
+    "/formlyTemplate/style/formlyTemplate.css": "formlyTemplatesCss"
+  },
+  "js": {
+    "/formlyTemplate/scripts/directives/formlyTemplate.js": "formlyTemplateDirectives",
+    "/formlyTemplate/scripts/services/formlyTemplate.js": "formlyTemplateServices",
+    "/static/bower_components/selectize/dist/js/standalone/selectize.min.js": "selectize",
+    "/formlyTemplate/config/formlyTemplate.js": "formlyTemplateConfig",
+    "/static/bower_components/ng-file-upload-shim/ng-file-upload-shim.min.js": "ng-file-upload-shim"
+  },
+  "moduleDependencies": {
+    "/static/bower_components/ng-file-upload/ng-file-upload.min.js": "ngFileUpload"
+  }
+}

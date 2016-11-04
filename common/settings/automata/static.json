@@ -1,0 +1,26 @@
+{
+  "css": {
+    "/automata/style/automata.css": "automataCss",
+    "/static/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css": "bootstrap3Datepicker",
+    "/automata/style/datatables/jquery.dataTables.min.css": "jqueryDataTables",
+    "/static/bower_components/select2/dist/css/select2.min.css": "select2css",
+    "/static/bower_components/select2-bootstrap-css/select2-bootstrap.min.css": "select2Bootstrap"
+  },
+  "js": {
+    "/automata/scripts/routes/automata.js": "automataRoute",
+    "/automata/scripts/controllers/automata.js": "automataController",
+    "/automata/scripts/directives/automata.js": "automataDirective",
+    "/automata/scripts/filters/automata.js": "automataFilter",
+    "/automata/scripts/services/automata.js": "automataServices",
+    "/automata/style/datatables/jquery.dataTables.min.js": "jqueryDatatables",
+    "/automata/scripts/loadDatatables.js": "loadDatatables",
+    "/static/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js": "bootstrap3Datapicker",
+    "/static/bower_components/select2/dist/js/select2.full.min.js": "select2Full",
+    "/static/bower_components/moment/min/moment.min.js": "moment",
+    "/static/bower_components/moment-range/dist/moment-range.min.js": "momentRange"
+  },
+  "settings": ["/automata/admin-panel-setting.js"],
+  "moduleDependencies": {
+    "/static/bower_components/angular-datatables/dist/angular-datatables.min.js": "datatables"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "css": {
+    "/aboutUs/style/example.css": "exampleCss"
+  },
+  "js": {
+    "/aboutUs/scripts/routes/aboutUs.js": "aboutUsRoute",
+    "/aboutUs/scripts/controllers/aboutUs.js": "aboutUsController"
+  },
+  "moduleDependencies": {
+
+  },
+  "settings": ["/aboutUs/admin-panel-setting.js"],
+  "bodystructure": {
+    "asidebarHook": [],
+    "sidebarHook": ["/aboutUs/views/sidebarHook.html"],
+    "headerHook": [],
+    "footerHook": []
+  }
+}

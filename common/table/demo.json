@@ -1,0 +1,179 @@
+{
+  "widgets": [
+    {
+      "label": "Total Cases posted",
+      "icon": "si-bar-chart",
+      "fetchLocally": true,
+      "propObj": {
+        "type": "$allTime",
+        "where": {
+          "type": "case"
+        },
+        "dateProp": "added"
+      }
+    },
+    {
+      "label": "Cases posted today",
+      "fetchLocally": true,
+      "icon": "si-calendar",
+      "propObj": {
+        "type": "$today",
+        "where": {
+          "type": "case"
+        },
+        "dateProp": "added"
+      }
+    },
+    {
+      "label": "Cases added this week",
+      "icon": "si-graph",
+      "fetchLocally": true,
+      "propObj": {
+        "type": "$week",
+        "where": {
+          "type": "case"
+        },
+        "dateProp": "added"
+      }
+    },
+    {
+      "label": "Total Book Review Posted",
+      "icon": "si-bar-chart",
+      "fetchLocally": true,
+      "propObj": {
+        "type": "$allTime",
+        "where": {
+          "type": "book review"
+        },
+        "dateProp": "added"
+      }
+    },
+    {
+      "label": "Total Interview Posted",
+      "icon": "si-bar-chart",
+      "fetchLocally": true,
+      "propObj": {
+        "type": "$allTime",
+        "where": {
+          "type": "interview"
+        },
+        "dateProp": "added"
+      }
+    },
+    {
+      "label": "Total Accepted Answer Case",
+      "icon": "si-bar-chart",
+      "fetchLocally": true,
+      "propObj": {
+        "type": "$allTime",
+        "where": {
+          "type": "case",
+          "hasAcceptedAnswer": true
+        },
+        "dateProp": "added"
+      }
+    }
+  ],
+  "filters": {
+    "added": {
+      "type": "$date",
+      "label": "Cases added between"
+    }
+  },
+  "tables": {
+    "heading": {
+      "search": "text"
+    },
+    "description": {
+      "display": false
+    },
+    "postImages": {
+      "display": false
+    },
+    "customer_firstName": {
+      "display": false
+    },
+    "customer_lastName": {
+      "display": false
+    },
+    "customer_status": {
+      "display": false
+    },
+    "customer_profilePic": {
+      "display": false
+    },
+    "customer_lastModified": {
+      "display": false
+    },
+    "customer_date": {
+      "display": false
+    },
+    "customer_email": {
+      "display": true,
+      "search": "related",
+      "type": "text",
+      "relatedModel": "Customer",
+      "foreignKey": "customerId",
+      "propertyName": "email"
+    },
+    "postDetails_acceptedAnswer": {
+      "display": false
+    },
+    "postDetails_updated": {
+      "display": false
+    },
+    "postDetails_added": {
+      "display": true,
+      "date": true,
+      "type": "date",
+      "search": "related",
+      "relatedModel": "PostDetail",
+      "foreignKey": "postDetailId",
+      "propertyName": "added"
+    },
+    "postDetails_type": {
+      "display": true,
+      "type": "select",
+      "tag": {
+        "case": "label-warning",
+        "book review": "label-primary",
+        "interview": "label-danger"
+      },
+      "search": "related",
+      "relatedModel": "PostDetail",
+      "foreignKey": "postDetailId",
+      "propertyName": "type",
+      "options": [
+        "case",
+        "book review",
+        "interview"
+      ]
+    },
+    "postDetails_totalLike": {
+      "display": true,
+      "type": "number",
+      "search": "related",
+      "relatedModel": "PostDetail",
+      "foreignKey": "postDetailId",
+      "propertyName": "totalLike"
+    },
+    "postDetails_status": {
+      "display": true,
+      "search": "related",
+      "type": "select",
+      "relatedModel": "PostDetail",
+      "foreignKey": "postDetailId",
+      "propertyName": "status",
+      "tag": {
+        "onhold": "label-warning",
+        "publish": "label-primary",
+        "reject": "label-danger"
+      },
+      "options": [
+        "publish",
+        "onhold",
+        "reject"
+      ]
+    }
+  },
+}

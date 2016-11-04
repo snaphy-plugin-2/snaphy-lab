@@ -1,0 +1,27 @@
+{
+  "name": "login",
+  "description": "Plugin for adding login functionality",
+  "version": "2.0.0",
+  "activate": true,
+  "routeExposure": "/login",
+  "adminUser": [
+    {
+      "username": "snaphy2016",
+      "email": "robinskumar@gmail.com",
+      "password": "snaphy_12345",
+      "firstName": "Robins",
+      "lastName": "Gupta"
+    },
+    {
+      "username": "admin2016",
+      "email": "admin@snaphy.com",
+      "password": "admin@12345",
+      "firstName": "Admin",
+      "lastName": "CompanyName"
+    }
+  ],
+  "pluginDependencies": {
+    "dashboard": "^2.0.0",
+    "JqueryValidate": "^2.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "JqueryValidate",
+  "version": "2.0.0",
+  "description": "Jquery-Validation to check validation ",
+  "routeExposure": "/jqueryValidate",
+  "activate": true,
+  "pluginDepedencies": {}
+}

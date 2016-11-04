@@ -1,0 +1,17 @@
+{
+  "name": "dashboard",
+  "version": "2.0.0",
+  "main": "backend",
+  "description": "A plugin for generating the dashboard ",
+  "author": "Robins Gupta",
+  "authorEmail": "robinskumar73@gmail.com",
+  "dependencies": {},
+  "optionalDependencies": {},
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "devDependencies": {
+
+  }
+}

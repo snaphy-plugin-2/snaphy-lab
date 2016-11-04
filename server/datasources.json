@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "drugcorner",
+    "password": "12345",
+    "name": "mongodb",
+    "connector": "mongodb",
+    "connectionTimeout": 18000,
+    "user": "robins"
+  }
+}

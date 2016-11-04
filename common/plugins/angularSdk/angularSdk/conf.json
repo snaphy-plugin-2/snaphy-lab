@@ -1,0 +1,8 @@
+{
+  "name": "angularSdk",
+  "description": "A plugin for generating angular Sdk ",
+  "version": "2.0.0",
+  "routeExposure": "/angularSdk",
+  "activate": true,
+  "pluginDependencies": {}
+}

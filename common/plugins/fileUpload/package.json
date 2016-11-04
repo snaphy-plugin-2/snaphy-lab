@@ -1,0 +1,22 @@
+{
+  "name": "fileUpload",
+  "version": "2.0.0",
+  "main": "backend",
+  "description": "A light weight plugin for uploading files based on ng-file-upload",
+  "author": "Robins Gupta",
+  "authorEmail": "robinskumar73@gmail.com",
+  "dependencies": {
+    "aws-cloudfront-sign": "^2.0.1",
+    "formidable": "^1.0.17",
+    "imager": "^0.4.0",
+    "lodash": "^4.15.0",
+    "quickthumb": "0.0.12",
+    "s3": "^4.4.0"
+  },
+  "optionalDependencies": {},
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "devDependencies": {}
+}

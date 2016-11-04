@@ -1,0 +1,21 @@
+{
+  "name": "angularSdk",
+  "version": "1.0.0",
+  "main": "backend",
+  "description": "A plugin for generating angular Sdk ",
+  "author": "Robins Gupta",
+  "authorEmail": "robinskumar73@gmail.com",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-docular": "^0.2.4",
+    "grunt-http-server": "^1.13.0",
+    "grunt-loopback-sdk-angular": "^1.1.2",
+    "grunt-serve": "^0.1.6"
+  },
+  "optionalDependencies": {},
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,13 @@
+{
+  "name": "automata",
+  "description": "Plugin for automatic generating all CRUD methods to the UI.",
+  "version": "2.0.0",
+  "activate": true,
+  "routeExposure": "/automata",
+  "pluginDependencies": {
+    "dashboard": "^2.0.0",
+    "JqueryValidate": "^2.0.0",
+    "login":"^2.0.0",
+    "formlyTemplate":"^2.0.0"
+  }
+}

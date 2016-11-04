@@ -1,0 +1,12 @@
+{
+  "css": {},
+  "js": {},
+  "moduleDependencies": {
+    "/angularSdk/js/lb-services.js": "lbServices"
+  },
+  "bodystructure": {
+    "asidebarHook": [],
+    "sidebarHook": [],
+    "headerHook": []
+  }
+}

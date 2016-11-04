@@ -1,0 +1,6 @@
+{
+  "js": {
+    "/fileUpload/scripts/routes/fileUpload.js": "fileUploadRoute",
+    "/fileUpload/scripts/controllers/fileUpload.js": "fileUploadController"
+  }
+}

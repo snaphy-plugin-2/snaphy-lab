@@ -1,0 +1,11 @@
+{
+  "name": "aboutUs",
+  "description": "Plugin for adding aboutUs | Terms and Conditions | FAQs etc",
+  "version": "2.0.0",
+  "activate": true,
+  "routeExposure": "/aboutUs",
+  "pluginDependencies": {
+    "email" :"^2.0.0",
+    "login": "^2.0.0"
+  }
+}

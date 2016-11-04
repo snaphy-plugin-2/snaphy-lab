@@ -1,0 +1,19 @@
+{
+    "name": "automata",
+    "version": "2.0.0",
+    "main": "backend",
+    "description": "Plugin for automatic generating all CRUD methods to the UI.",
+    "author": "Robins Gupta",
+    "authorEmail": "robinskumar73@gmail.com",
+    "dependencies": {
+        "async": "^1.5.2",
+        "bluebird": "^3.1.1",
+        "lodash": "^3.10.1"
+    },
+    "optionalDependencies": {},
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "devDependencies": {}
+}

@@ -1,0 +1,8 @@
+{
+  "name": "formlyTemplate",
+  "description": "Plugin for adding different template support for formly",
+  "version": "2.0.0",
+  "activate": true,
+  "routeExposure": "/formlyTemplate",
+  "pluginDependencies": {}
+}

@@ -1,0 +1,39 @@
+{
+  "name": "fileUpload",
+  "version": "2.0.0",
+  "activate": false,
+  "routeExposure": "/fileUpload",
+  "cdn": {
+    "amazon": {
+      "container": "smartshoppr",
+      "keyPairId": "APKAIUMX7BCOTNT3P6MQ",
+      "url": "http://dhyffd2ofl7a1.cloudfront.net"
+    }
+  },
+  "fileDefaultModel": "AmazonImage",
+  "config": [
+    {
+      "fileModel": "AmazonImage",
+      "containerModel": "container",
+      "fileDataSource": "Image",
+      "defaultContainer": "smartshoppr",
+      "createInitContainer": [
+        "smartshoppr"
+      ],
+      "fileProp": [
+        {
+          "type": "image",
+          "size": 102400,
+          "bind": true,
+          "thumbPrefix": {
+            "thumb": {
+              "height": "122px",
+              "width": "200px"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "pluginDependencies": {}
+}

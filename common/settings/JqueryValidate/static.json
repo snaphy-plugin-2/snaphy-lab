@@ -1,0 +1,9 @@
+{
+  "js": {
+    "/static/bower_components/jquery-validation/dist/jquery.validate.min.js": "jqueryValidation",
+    "/jqueryValidate/scripts/validateDirectives.js": "validateDirectives"
+  },
+  "moduleDependencies":{
+    "/static/bower_components/jpkleemans-angular-validate/dist/angular-validate.min.js": "ngValidate"
+  }
+}

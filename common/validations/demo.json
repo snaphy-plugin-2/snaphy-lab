@@ -1,0 +1,38 @@
+{
+  "validationsBackend": {
+    "rules": {
+      "heading": {
+        "required": true,
+        "minlength": 5
+      },
+      "customer": {
+        "required": true,
+        "valueNotEquals": ""
+      }
+    },
+    "messages": {
+      "heading": {
+        "required": "heading is required",
+        "minlength": "Minimum permitted length is atleast 5"
+      },
+      "customer": {
+        "required": "Doctor is required",
+        "valueNotEquals": "Doctor is required"
+      }
+    }
+  },
+  "complexValidation": {
+    "rules": {
+      "postType": {
+        "required": true,
+        "valueNotEquals": ""
+      }
+    },
+    "messages": {
+      "postType": {
+        "required": "Post type is required",
+        "valueNotEquals": "Post type is required"
+      }
+    }
+  },
+}

@@ -1,0 +1,16 @@
+{
+  "name": "formlyTemplate",
+  "version": "2.0.0",
+  "main": "backend",
+  "description": "Plugin for adding different template support for formly",
+  "author": "Robins Gupta",
+  "authorEmail": "robinskumar73@gmail.com",
+  "dependencies": {
+  },
+  "optionalDependencies": {},
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "devDependencies": {}
+}

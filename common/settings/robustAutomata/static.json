@@ -1,0 +1,22 @@
+{
+  "css": {
+    "/robustAutomata/style/robustAutomata.css": "robustAutomataCss"
+  },
+  "js": {
+    "/robustAutomata/scripts/routes/robustAutomata.js": "robustAutomataRoute",
+    "/robustAutomata/scripts/controllers/robustAutomata.js": "robustAutomataController",
+    "/robustAutomata/scripts/services/robustAutomata.js": "robustAutomataServices",
+    "/robustAutomata/scripts/filters/robustAutomata.js": "robustAutomataFilters",
+    "/robustAutomata/scripts/directives/robustAutomata.js": "robustAutomataDirectives"
+  },
+  "moduleDependencies": {
+    "/static/bower_components/angular-smart-table/dist/smart-table.min.js": "smart-table"
+  },
+  "settings": ["/robustAutomata/admin-panel-setting.js"],
+  "bodystructure": {
+    "asidebarHook": [],
+    "sidebarHook": ["/robustAutomata/views/sidebarHook.html"],
+    "headerHook": [],
+    "footerHook": []
+  }
+}

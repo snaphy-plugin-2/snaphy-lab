@@ -1,0 +1,15 @@
+{
+    "name": "robustAutomata",
+    "version": "2.0.0",
+    "main": "backend",
+    "description": "Plugin for allowing server side processing of datatable making it more robust",
+    "author": "Robins Gupta",
+    "authorEmail": "robinskumar73@gmail.com",
+    "dependencies": {},
+    "optionalDependencies": {},
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "devDependencies": {}
+}

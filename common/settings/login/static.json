@@ -1,0 +1,25 @@
+{
+  "css": {
+    "/login/style/login.css": "loginCss"
+  },
+  "js": {
+    "/login/scripts/controllers/login.js": "loginControl",
+    "/login/scripts/services/login.js": "loginService",
+    "/login/scripts/controllers/forgotPass.js": "forgotPassControl",
+    "/login/scripts/controllers/register.js": "registerControl",
+    "/login/scripts/routes/login.js": "loginRoute",
+    "/login/scripts/directives/login.js": "loginDirectives"
+  },
+  "moduleDependencies": {
+    "/static/bower_components/angular-permission/dist/angular-permission.js": "permission"
+  },
+  "settings": ["/login/admin-panel-setting.js"],
+  "bodystructure": {
+    "asidebarHook": [],
+    "sidebarHook": [],
+    "headerHook": [
+      "/login/views/headerHook.html"
+    ],
+    "footerHook": []
+  }
+}
